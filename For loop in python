@@ -1,0 +1,14 @@
+#program1
+fruits =["Apple","Peach","Pear"]
+# to print one by one the value of each list
+for fruit in fruits:
+  print(fruit)
+  print(fruits)#inside for loop 
+#outside for loop printing list
+print(fruits)
+#program2
+fruits =["Apple","Peach","Pear"]
+#to assign a variable of each item to the loop
+for fruits in fruits:
+  print(fruit)
+  print(fruit+"pie")
