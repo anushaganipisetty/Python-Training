@@ -1,0 +1,25 @@
+#Functions with inputs
+#simple function
+def greet():
+  print("Hello Angela")
+  print("How do you do Jack Bauer?")
+  print("Isn't the weather nice today?\n\n")
+greet()
+
+#Function that allows for input
+print("Function that allows for input::")
+def greet_with_name(name):
+  print(f"Hello {name}")
+  print(f"How do you do{name}?\n\n")
+greet_with_name("Angela")
+
+# functions with more than one input
+print("functions with more than one input::")
+def greet_with(name,location):
+  print(f"Hello {name}")
+  print(f"what is it like in {location}?\n\n")
+greet_with("Jack Bauer","Nowhere")
+
+#Functions with keyboard arguments
+print("Functions with keyboard arguments")
+greet_with(name="Angela",location="london")
