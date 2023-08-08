@@ -1,0 +1,178 @@
+# python program int data type
+a = -57
+print(a)  # output will be -57
+# python float datatype
+num = 55.67998
+print(num)  # output will be 55.67998
+x = 22.55e3
+print(x)  # output will be 22550.0
+# python complex datatype
+c1 = -1 - 5.5j
+print(c1)  # output will be -1-5.5j
+c2 = 3.0 - 0.5j
+print(c2)  # output will be 3.0-0.5j
+c3 = c1 + c2
+print("sum=", c3)  # output will be sum=(2-6j)
+# python Converting the datatypes explicitly
+
+# int(x1) is used to convert x into float type
+x1 = 15.56
+int(x1)
+print(int(x1))  # will display 15
+# float(x) is used to convert x into float type
+num = 15
+float(num)
+print(float(num))  # will display 15.0
+
+# complex(x) is used to convert x into a complex number with real part x and imaginary part zero
+n = 10
+cx = complex(n)
+print(cx)  # will display (10+0j)
+#  complex(x,y) is used to convert x and y into a complex number such that x will be the real part and y will be imaginary part
+
+a = 10
+b = -5
+complex(a, b)  # will display (10-5j)
+
+# python program to convert into decimal number systems
+n1 = 0o17
+n2 = 0B1110010
+n3 = 0X1c2
+
+z = int(n1)
+print('Octal 17= ', n)  # output will be Octal 17 = 15
+z = int(n2)
+print('Binary 1110010=', n)  # output will be Binary 1110010 = 114
+z = int(n3)
+print('Hexadecimal 1c2=', n)  # output will be Hexadecimal 1c2 = 450
+
+'''
+There is a function in the form of int(string, base) that is useful to cconvert a string into a decimal integer. 'String' represents the string format of the number. It should contain integer number in string format. 'Base' represents the base of the number system to be used for the string.For example, base 2 indiacates binary number and base 16 indicates hexadecimal number
+'''
+str1 = "1c2"  # string str contains a hexa decimal number
+N = int(str1, 16)  # base is 16, convert str into int
+print(N)  # this will display 450
+''' we can also use functions bin() for converting a number into binary number system, The function oct() will convert
+a number into octal number system and the function hex() will convert a number into hexadecimal number system 
+'''
+a1 = 10
+b1 = bin(a1)
+print(b1)  # will display 0b1010
+
+b1 = oct(a1)
+print(b1)  # output will be 0o12
+
+b1 = hex(a1)
+print(b1)  # output will be 0Xa1
+
+'''
+bool Datatype
+
+The bool datatype in python represents boolean values, There are only two boolean values  True or false that can be represented by this datatype. Python internally represents True as 1 and False as 0. A blank string like " " is also represented as false)
+'''
+a2 = 10
+b2 = 20
+if (a2 < b2):
+    print("Hello")  # displays Hello
+a2 = 10>5  # here 'a' is treated as bool type variable
+print(a2)  # displays true
+
+a2 = 5>10
+print(a2)  # displays False
+
+print(True+True)  # will display 2  # true is 1 and false is 0
+
+print(True-False)  # will display 1
+
+'''
+Sequences in python
+
+Generally , a Sequences represents a group of elements or items. For example, a group of integer numbers will form a sequence. There are six types of sequences in pyhton:
+> Str
+> Bytes
+> Bytearray
+> list
+> tuple
+> range
+
+'''
+
+# Str Datatype
+''' str represents string datatype, strings are enclosed by " " double quotes or ' ' single quotes.
+'''
+str = "Welcome"  # here str is name of string type variable
+str = ' Welcome'  # here str is name of string type variable
+
+'''
+we can also write strings inside """ (triple double quotes ) or 
+ (triple single quotes ) to span a group of lines including spaces. 
+'''
+
+str1 = """ This is abook on python which discuss all the topics of core python in a very lucid manner. """
+str2 = ''' This is a book on python which discuss all the topics of core python in a very lucid manner.'''
+str3 = " " " This is 'core python' book." " "
+print(str3)  # will display : This is 'core python' book.
+str4 = ''' This is " core python " book.'''
+print(str4)  # will display: this is " core python" book.
+
+''' 
+The slice operator represents square brackets [ and ] to retrieve pieces of a string. For example, the characters in a string are counted from - onwords. Hence, str[0] indicates the 0th character or beginning character in the evening.'''
+str5 = 'Welcome to core python'  # this is the original string
+print(str5)  # output will be Welcome to core python
+print(str5[0])  # displays 0th character from s value will be W
+print(str5[1])  # displays the first position character from s value will be e
+print(str5[2])  # displays the 2nd character from s value will be l
+print(str5[3:7])  # displays the 3rd to 6th characters s value will be come
+print(str5[11:])  # displays the 11th character onwards till end s value will be core python
+print(str5[-1])  # displays first character from the end n
+
+'''
+
+the repetation operator is denoted by '*' symbol and useful to repeat the string for several times.
+ For example s*n repeats the string for n times.
+ '''
+print(str5*2)
+#  Welcome to core pythonWelcome to core python
+'''
+bytes datatype
+a byte number is any positive integers from 0 to 255. 
+'''
+elements=[10,20,0,40,15] # this is a list of bytes numbers
+x = bytes(elements) # convert the list into bytes array
+print(x[0]) # display 0th element. i.e 10
+for i in x:
+  print(i)
+
+# program to understand bytes type array
+# create a list of byte numbers
+elements = [10,20,0,40,15]
+# convert the list into bytes type array
+x = bytes(elements)
+print(x)
+# retrieve elements from x using for loop and display
+for i in x: print(i)
+
+'''
+bytearray datatype
+'''
+elements = [10,20,0,40,15] # this is a list of byte numbers
+X1 = bytearray(elements)  # convert the list into bytearray type array
+print(X[10])  # diplay 0th element , i.e 10
+#modify the first two elements of x
+X1[0] = 88
+X1[1] = 99
+X1 = bytearray(elements)
+# retrieve elements from x using for loop and display
+for i in X1 : print(i)
+
+
+
+
+
+
+
+
+
+
+
+
