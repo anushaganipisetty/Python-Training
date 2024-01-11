@@ -1,0 +1,5 @@
+print("Hello World")
+print("Day 1 - python print function")
+print("The Function declared like this")
+print("What to print")
+print("print('what to print')")
