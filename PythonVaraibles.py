@@ -1,3 +1,8 @@
+# varaible = value
+a=10
+print(a)
+
+
 james = 1234567890
 print(james)
 
