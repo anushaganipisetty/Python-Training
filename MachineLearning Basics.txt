@@ -1,0 +1,112 @@
+What is Machine Learning
+Machine Learning is said as a subset of artficial intelligence that is mainly concerned with the development of algorithms which allow a computer to learn from the data and past expeierences on their own.
+
+Deep Learning +Machine Learning  =Artficial Learning 
+subset of Artficial Learnign is Datascience
+What is Data?
+Data is Raw facts!
+NumericalData or categoricalData or TimeseriesData or TextData
+
+Where we will get the Data?
+1. Kaggle
+2. Web scraping
+3. Third-party Companies
+Five of the most popular ML dataset resources:
+
+Google--> Google's Dataset Search
+Microsoft---> Microsoft Resarch Open Data
+aws --> Amazon Datasets
+UCI ---> UCI Machine Learning Repository
+DATA.Gov --> Government Datasets
+
+Machine Learning
+Supervised: Input and Output will be provided by user using label data Task Driven (Predict next value)
+Unsupervised: We dont give label data (data Driven (identify Clusters)
+Reinforcement: Learn from mistakes
+
+Machinelearning algorithms
+Supervised Learning
+Classifcation 
+. Naive Bayes Classifier
+. Decision Trees
+. Support Vector Machines
+. Random Forest
+. K- Nearest Neighbors
+Regression 
+. Lenear Regression
+.Neural Network Regression
+. Support Vector Regression
+. Decision Tree Regression
+. LassoRegression
+. Ridge Regression
+
+UNSUPERVISED Learnign
+Clustering
+.K-Means Clustering
+.Mean-shift Clustering
+.DBSCAN Clustering
+.Agglomerative Hierarchical Clustering
+>GaussianMixture
+
+REINFORCEMENT LEARNING
+DECISION MAKING
+.Q-Learnign.R Learning
+.TD Learning
+
+
+MachineLearning Steps
+Step-1 Data gathering
+Gathering Data from various third-party companies, websites, institutions etc
+observations 
+interviews and Focus Groups
+Transactional Tracking
+Social Media Monitoring
+Online Tracking
+Surveys
+Forms
+
+step: 2 Data Preprocession
+Data Preprocessing is the process of transforming raw data into an understandable format.
+Major Tasks in dta preprocessing:
+Data cleaning
+Data Integration
+Data Reduction
+Data Transformation
+
+Data preproccing uses Tools and Libraries
+Libraries
+1. pandas --stats
+2. Nummpy
+Tools
+ETL Tools
+Excel ---or powerBI or Tableau
+
+Step-3 Data Visualization
+Data visulaization is the graphical representaion of information and data. By using visual elements like charts, graphsm and maps
+libraries
+1. Matplotlib
+2. Seaborn
+3. plotly
+Tools:
+1. PowerBI
+2. Tableau
+
+Step 4: Data Modeling
+1. Selecting The Algorithm
+2. Training the model
+3. Testing the model
+Uses sklearn
+
+DataModiling---->TestData-->ModeTesting
+DataModiling----->ModelTraing&building---> Model Testing
+
+
+Step 5: Deployment
+Deployment of an ML-model simply means the integration of the model into an existing production environment which can take in an inout and return an output that can be used in making practical business decisions.
+For deployment
+1. Django or Flask
+2. Sql
+3. Github
+4. AWS or Azure or GCP
+5. Heroku
+
